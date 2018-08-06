@@ -1,4 +1,4 @@
-FROM nvidia/cuda:9.2-cudnn7-devel
+FROM nvidia/cuda:9.2-devel
 
 RUN apt-get -qq update &&  \
     apt-get -qq install --assume-yes build-essential git wget pkg-config locales \
