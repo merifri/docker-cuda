@@ -16,5 +16,3 @@ RUN /opt/conda/bin/conda install -q -y conda numpy scipy pip pillow cython && \
   /opt/conda/bin/python3.6 -m pip install --upgrade pip && \
   /opt/conda/bin/python3.6 -m pip install --upgrade --no-deps https://github.com/Theano/Theano/archive/master.zip && \
   /opt/conda/bin/python3.6 -m pip install --upgrade --no-deps https://github.com/Lasagne/Lasagne/archive/master.zip
-
-ENTRYPOINT ["/bin/bash"]
